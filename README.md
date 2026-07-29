@@ -64,3 +64,17 @@ node server.js
 **Nishtha Garg**
 
 Built as a learning project while practicing Full Stack Web Development.
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](screenshots/homepage.png)
+
+### ➕ Add Student
+![Add Student](screenshots/add-student.png)
+
+### ✏️ Edit Student
+![Edit Student](screenshots/edit-student.png)
+
+### 🗄️ Database (MongoDB)
+![Database](screenshots/database.png)
