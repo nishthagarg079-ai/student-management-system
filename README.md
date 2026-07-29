@@ -1,6 +1,6 @@
 # 🎓 Student Management System
 
-A full-stack CRUD application built to manage student records efficiently.
+Full Stack Student Management System built with HTML, CSS, JavaScript, Node.js, Express.js, and MongoDB. Supports CRUD operations and REST API integration.
 
 This project allows users to add, view, update, delete, and search student information with data stored permanently in MongoDB.
 
@@ -44,28 +44,6 @@ student-management-system
 └── README.md
 ```
 
-## 🚀 How To Run Locally
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/nishthagarg079-ai/student-management-system
-
-## 👩‍💻 Author
-
-**Nishtha Garg**
-
-Built as a learning project while practicing Full Stack Web Development.
-
-## 🔌 API Endpoints
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/students` | Get all students |
-| POST | `/students` | Add a new student |
-| PUT | `/students/:id` | Update student details |
-| DELETE | `/students/:id` | Delete a student |
-
 ## 📸 Screenshots
 
 ### 🏠 Home Page
@@ -79,6 +57,55 @@ Built as a learning project while practicing Full Stack Web Development.
 
 ### 🗄️ Database (MongoDB)
 ![Database](screenshots/database.png)
+
+## 🔌 API Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | `/students` | Get all students |
+| POST | `/students` | Add a new student |
+| PUT | `/students/:id` | Update student details |
+| DELETE | `/students/:id` | Delete a student |
+
+
+## 🚀 How To Run Locally
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/nishthagarg079-ai/student-management-system
+```
+
+### 2. Open the project
+
+```bash
+cd student-management-system
+```
+
+### 3. Install backend dependencies
+
+```bash
+cd backend
+npm install
+```
+
+### 4. Start the backend server
+
+```bash
+node server.js
+```
+
+### 5. Open the frontend
+
+Open `index.html` in your browser.
+
+### 6. Make sure MongoDB is running locally
+
+The application connects to MongoDB at:
+
+```
+mongodb://localhost:27017/studentDB
+```
 
 ## 🔮 Future Improvements
 
@@ -97,4 +124,4 @@ Computer Science Student | Aspiring Full Stack Web Developer
 
 GitHub: [nishthagarg079-ai](https://github.com/nishthagarg079-ai)
 
-Built using HTML, CSS, JavaScript, Node.js, Express.js, MongoDB, and Mongoose.
+Built as a learning project while practicing Full Stack Web Development using HTML, CSS, JavaScript, Node.js, Express.js, MongoDB, and Mongoose.
