@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Management System</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>Student Management System</h1>
+
+</header>
+
+<main>
+
+<section class="controls">
+
+<button id="addBtn">Add Student</button>
+    <input
+    type="text"
+    id="searchInput"
+    placeholder="Search Student..."
+>
+
+</section>
+
+<section>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>ID</th>
+
+<th>Name</th>
+
+<th>Age</th>
+
+<th>Course</th>
+
+<th>Actions</th>
+
+</tr>
+
+</thead>
+
+<tbody id="studentTable">
+
+</tbody>
+
+</table>
+
+</section>
+
+</main>
+
+<div id="popup" class="popup">
+
+    <div class="popup-content">
+
+        <h2>Add Student</h2>
+
+<input id="studentName" type="text" placeholder="Student Name">
+
+        <input id="studentAge" type="number" placeholder="Age">
+
+        <input id="studentCourse" type="text" placeholder="Course">
+
+        <div class="popup-buttons">
+
+<button id="saveBtn">Save</button>
+
+            <button id="closeBtn">Cancel</button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
