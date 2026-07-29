@@ -89,10 +89,12 @@ Built as a learning project while practicing Full Stack Web Development.
 - Improve UI with animations and responsive design
 - Deploy the application online
 
-## 👩‍💻 Author
+## 👩 Author
 
 **Nishtha Garg**
 
-Built as a Full Stack Web Development project using HTML, CSS, JavaScript, Node.js, Express.js, MongoDB, and Mongoose.
+Computer Science Student | Aspiring Full Stack Web Developer
 
-GitHub: https://github.com/nishthagarg079-ai
+GitHub: [nishthagarg079-ai](https://github.com/nishthagarg079-ai)
+
+Built using HTML, CSS, JavaScript, Node.js, Express.js, MongoDB, and Mongoose.
